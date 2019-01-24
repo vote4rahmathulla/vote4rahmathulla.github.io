@@ -1,0 +1,82 @@
+body {
+    font-family: 'Baloo Chettan', 'Roboto', Georgia, 'Times New Roman', Times, serif
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+}
+
+.cover-image-bg {
+    background-image: url("./../assets/images/cover-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.cover-heading-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding: 5%;
+}
+
+.cover-heading {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100;
+    padding: 20px;
+    font-family: 'Baloo Chettan';
+    text-align: center;
+    text-shadow: black 15px 15px 15px;
+}
+
+.sub-header {
+    height: 5rem;
+    width: 100%;
+}
+
+.candidate-image {
+    background-color: skyblue;
+    height: 5rem;
+    width: 100%;
+}
+
+.image-holder-avatar {
+    margin-top: -5rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.avatar-image {
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    height: 10rem;
+    width: 10rem;
+}
+
+.candidate-intro {
+    margin-top: 10rem;
+    background-color: skyblue;
+    border-top: 3px solid white; 
+    border-bottom: 3px solid white; 
+}
+
+.intro-text {
+    padding: 10px;
+    font-family: 'Roboto';
+}
