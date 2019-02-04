@@ -103,7 +103,7 @@ body {
     flex-direction: column;
     padding: 10px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
 }
 
@@ -138,6 +138,7 @@ body {
 
 .full-width {
     width: 100%;
+    text-align: center;
 }
 
 .awesome-text {
