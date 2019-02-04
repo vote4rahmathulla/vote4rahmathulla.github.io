@@ -44,7 +44,7 @@ body {
 }
 
 .vote-me {
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .vote-me-text {
@@ -60,6 +60,14 @@ body {
 .candidate-image {
     height: 10rem;
     width: 100%;
+}
+
+.candidate-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
 }
 
 .image-holder-avatar {
@@ -109,6 +117,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
 }
 
 .gallery-image-holder {
@@ -125,4 +134,14 @@ body {
     font-size: 10px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.awesome-text {
+    color: #2ca8e0;
+    font-weight: bold;
+
 }
